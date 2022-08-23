@@ -1,6 +1,7 @@
 import React from "react";
 import HeroTitle from "../heroTitle/HeroTitle";
 import Play from "../play/Play";
+import Slider from "../slider/Slider";
 import Video from "../video/Video";
 
 const Hero = () => {
@@ -9,6 +10,7 @@ const Hero = () => {
       <Video />
       <Play />
       <HeroTitle />
+      <Slider />
     </div>
   );
 };
