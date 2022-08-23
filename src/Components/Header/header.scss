@@ -1,0 +1,46 @@
+@import "../../variables";
+#header {
+  #logoContainer {
+    width: 156px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  #navbarContainer {
+    font-weight: bold;
+    &::before {
+      background: url("../../assets/images/navbar_background.webp") no-repeat
+        50%;
+      background-size: contain;
+      height: 100%;
+      max-height: 7rem;
+      max-width: 53rem;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 27%;
+      width: 100%;
+      z-index: -1;
+    }
+    #navLinks {
+      margin-left: 0;
+      margin-top: 2rem;
+      list-style: none;
+      .navLink {
+        a {
+          color: white;
+          text-decoration: none;
+          text-shadow: 0 0 4px black;
+          transition: all 0.3s ease-out;
+        }
+        &:hover {
+          a {
+            color: $yellow;
+          }
+        }
+      }
+    }
+  }
+}

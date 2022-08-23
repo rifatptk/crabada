@@ -1,0 +1,39 @@
+#play {
+  #playImages {
+    width: fit-content;
+    height: 400px;
+    margin-left: 1080px;
+    img {
+      margin-top: -100px;
+      width: 200px;
+      height: fit-content;
+      &:first-child {
+        animation: boat 4s ease-in-out infinite;
+      }
+      &:nth-child(2) {
+        animation: wheel 8s ease-in-out infinite;
+        overflow: visible;
+      }
+      &:last-child {
+        margin-top: -120px;
+        animation: play 4s ease-in-out infinite;
+      }
+    }
+  }
+}
+
+@keyframes boat {
+  50% {
+    transform: translateY(-16px);
+  }
+}
+@keyframes wheel {
+  50% {
+    transform: rotate(-45deg);
+  }
+}
+@keyframes play {
+  50% {
+    transform: translateY(8px);
+  }
+}
