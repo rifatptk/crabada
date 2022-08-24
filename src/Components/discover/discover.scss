@@ -1,0 +1,94 @@
+#discover {
+  margin: 80px 0;
+  height: 500vh;
+  background: url(../../assets/images/discover-bg.webp);
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+  #discoverHeader {
+    padding-bottom: 160px;
+    background-image: linear-gradient(#0d2334, #0d2334, rgba(0, 0, 0, 0));
+    #title {
+      font-size: 4rem;
+    }
+  }
+  #images {
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    #dragon {
+      width: 100%;
+    }
+    #tower {
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 35%;
+      z-index: 1;
+    }
+    #seashellCover {
+      width: 24%;
+      position: absolute;
+      top: -10%;
+      left: 40%;
+      display: block;
+      z-index: 2;
+    }
+    #smoke {
+      width: 20%;
+      position: absolute;
+      top: -30%;
+      left: 40%;
+      display: block;
+      margin: 0 auto;
+      z-index: 3;
+    }
+    #seashell {
+      width: 24%;
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      display: block;
+      margin: 0 auto;
+      z-index: 4;
+    }
+    #bee {
+      width: 10%;
+      position: absolute;
+      top: 40%;
+      left: 51%;
+      display: block;
+      margin: 0 auto;
+      z-index: 4;
+    }
+    #soldiar {
+      width: 10%;
+      position: absolute;
+      top: 15%;
+      left: 25%;
+      display: block;
+      margin: 0 auto;
+      z-index: 4;
+    }
+    #fruit {
+      width: 20%;
+      position: absolute;
+      top: -5%;
+      right: 10%;
+      display: block;
+      margin: 0 auto;
+      z-index: 4;
+    }
+    #helping {
+      width: 10%;
+      position: absolute;
+      top: 90%;
+      right: 20%;
+      display: block;
+      margin: 0 auto;
+      z-index: 4;
+    }
+  }
+}
