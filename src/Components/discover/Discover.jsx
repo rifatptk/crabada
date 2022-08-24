@@ -9,6 +9,8 @@ import bee from "../../assets/images/bee.webp";
 import soldiar from "../../assets/images/soldiar.webp";
 import fruit from "../../assets/images/fruit.webp";
 import helping from "../../assets/images/helping.webp";
+import bitcoin from "../../assets/images/bitcoin.webp";
+import flash from "../../assets/images/flash.webp";
 
 const Discover = () => {
   return (
@@ -28,6 +30,32 @@ const Discover = () => {
         <img src={soldiar} id="soldiar" alt="" />
         <img src={fruit} id="fruit" alt="" />
         <img src={helping} id="helping" alt="" />
+      </div>
+      <div id="joinTheBattle">
+        <h2>Join the Battle for Treasure!</h2>
+        <p>
+          Mine, Loot Breed, Battle! Discover riches and Treasure Under Sea as
+          you send your Crabada to engage in exciting missions and battles!
+        </p>
+      </div>
+      <div id="slideFromOutside">
+        <img src={bitcoin} id="bitcoin" alt="" />
+        <img src={flash} id="flash" alt="" />
+      </div>
+      <div id="joinTheBattle">
+        <h2>Battle for Glory!</h2>
+        <p>
+          Rise to the challenge and take down powerful foes in battle! Will you
+          emerge as the champion in the race for claw-supremacy?
+        </p>
+      </div>
+      <div id="crabada">
+        <h2>Crabada - An Exciting Cross-Platform Web3 Game</h2>
+        <p>
+          Crabada is an idle game available on most native platforms. Earn
+          in-gam rewards in exciting, idle gameplay as you send your Crabada
+          NFTs to Battle for riches and glory.
+        </p>
       </div>
     </div>
   );
