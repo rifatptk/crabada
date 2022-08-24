@@ -23,6 +23,25 @@
         top: 20%;
         left: 8%;
       }
+      .cardContent {
+        width: 83%;
+        position: absolute;
+        top: 150px;
+        left: 32px;
+        color: $chocolate;
+        text-align: center;
+        div {
+          img {
+            width: 100%;
+            &:last-child {
+              width: 200px;
+              position: absolute;
+              top: -48px;
+              left: 140px;
+            }
+          }
+        }
+      }
     }
   }
 }
