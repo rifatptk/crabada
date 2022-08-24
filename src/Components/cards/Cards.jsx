@@ -27,10 +27,32 @@ const Cards = () => {
         <div className="infoCard ">
           <img src={cardbg} className="cardbg" alt="" />
           <img src={cardpaper} className="cardpaper" alt="" />
+          <div className="cardContent">
+            <div>
+              <img src={cardimagebg} alt="" />
+              <img src={cardimage1} alt="" />
+            </div>
+            <h2>Go on an Exciting Adventure</h2>
+            <p>
+              Discover rich new lands and engage in challenging boss fights as
+              you progress through Adventure Mode!
+            </p>
+          </div>
         </div>
         <div className="infoCard ">
           <img src={cardbg} className="cardbg" alt="" />
           <img src={cardpaper} className="cardpaper" alt="" />
+          <div className="cardContent">
+            <div>
+              <img src={cardimagebg} alt="" />
+              <img src={cardimage1} alt="" />
+            </div>
+            <h2>Expand your Crabada Forces</h2>
+            <p>
+              Breed powerful and unique Crabada, each with their ow strengths
+              and abilities to be used in battle!
+            </p>
+          </div>
         </div>
       </div>
     </div>
