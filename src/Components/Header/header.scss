@@ -29,6 +29,7 @@
       margin-top: 2rem;
       list-style: none;
       .navLink {
+        position: relative;
         a {
           color: white;
           text-decoration: none;
@@ -38,6 +39,36 @@
         &:hover {
           a {
             color: $yellow;
+          }
+        }
+        #moreItems {
+          width: 140px;
+          height: 156px;
+          margin-top: 16px;
+          position: absolute;
+          left: -40px;
+          background: url(../../assets/images/submenu-bg.webp);
+          background-repeat: no-repeat;
+          background-size: contain;
+          font-weight: 800;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .moreItem {
+            color: $chocolate;
+            margin-bottom: 24px;
+            cursor: pointer;
+            &:hover {
+              color: rgb(170, 142, 106);
+            }
+          }
+          #border {
+            width: 80%;
+            height: 4px;
+            margin-bottom: 24px;
+            background-color: burlywood;
+            border-radius: 100%;
           }
         }
       }
