@@ -12,7 +12,9 @@ const Book = () => {
         Breed from 8 classes of Crabada, 64 unique Breed Types, and infinite
         possibilities!
       </p>
-      <img className="w-75 mt-5" src={book} alt="" />
+      <div id="theBookContainer">
+        <img className="mt-5" id="theBook" src={book} alt="" />
+      </div>
     </div>
   );
 };
