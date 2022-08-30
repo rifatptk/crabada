@@ -11,6 +11,7 @@ import fruit from "../../assets/images/fruit.webp";
 import helping from "../../assets/images/helping.webp";
 import bitcoin from "../../assets/images/bitcoin.webp";
 import flash from "../../assets/images/flash.webp";
+import { motion } from "framer-motion";
 
 const Discover = () => {
   return (
@@ -22,12 +23,35 @@ const Discover = () => {
 
       <div id="images">
         <img src={dragon} id="dragon" alt="" />
-        <img src={tower} id="tower" alt="" />
+        <motion.img
+          initial={{ opacity: 0, y: 200 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { type: "smooth", duration: 1 },
+          }}
+          viewport={{ once: false, amount: 0.01 }}
+          src={tower}
+          id="tower"
+          alt=""
+        />
         <img src={seashellCover} id="seashellCover" alt="" />
         <img src={smoke} id="smoke" alt="" />
         <img src={seashell} id="seashell" alt="" />
         <img src={bee} id="bee" alt="" />
-        <img src={soldiar} id="soldiar" alt="" />
+        <motion.img
+          initial={{ opacity: 0, x: -200, y: -200 }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+            y: 0,
+            transition: { type: "smooth", duration: 1 },
+          }}
+          viewport={{ once: false, amount: 0.8 }}
+          src={soldiar}
+          id="soldiar"
+          alt=""
+        />
         <img src={fruit} id="fruit" alt="" />
         <img src={helping} id="helping" alt="" />
       </div>
@@ -39,8 +63,29 @@ const Discover = () => {
         </p>
       </div>
       <div id="slideFromOutside">
-        <img src={bitcoin} id="bitcoin" alt="" />
-        <img src={flash} id="flash" alt="" />
+        <motion.img
+          initial={{ opacity: 0, marginRight: 400 }}
+          whileInView={{
+            opacity: 1,
+            marginRight: 0,
+            transition: { type: "smooth", duration: 1.5 },
+          }}
+          viewport={{ once: false, amount: 0.5 }}
+          src={bitcoin}
+          id="bitcoin"
+          alt=""
+        />
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            transition: { type: "smooth", duration: 1.5 },
+          }}
+          viewport={{ once: false, amount: 0.5 }}
+          src={flash}
+          id="flash"
+          alt=""
+        />
       </div>
       <div id="joinTheBattle">
         <h2>Battle for Glory!</h2>

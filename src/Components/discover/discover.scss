@@ -37,6 +37,7 @@
       left: 40%;
       display: block;
       z-index: 2;
+      animation: shellCover 2s infinite ease-in-out;
     }
     #smoke {
       width: 20%;
@@ -46,6 +47,7 @@
       display: block;
       margin: 0 auto;
       z-index: 3;
+      animation: smoke 4s infinite ease-in-out;
     }
     #seashell {
       width: 24%;
@@ -64,6 +66,7 @@
       display: block;
       margin: 0 auto;
       z-index: 4;
+      animation: bee 2s infinite ease-in-out;
     }
     #soldiar {
       width: 10%;
@@ -104,6 +107,9 @@
     z-index: 5;
   }
   #slideFromOutside {
+    display: flex;
+    justify-content: center;
+    // gap: 200px;
     #bitcoin {
       width: 40%;
       position: relative;
@@ -119,5 +125,21 @@
     margin-top: 32px;
     position: relative;
     z-index: 1;
+  }
+}
+@keyframes bee {
+  50% {
+    transform: translateY(24px);
+  }
+}
+@keyframes shellCover {
+  50% {
+    transform: skewY(4deg);
+    transform: skewX(4deg);
+  }
+}
+@keyframes smoke {
+  50% {
+    opacity: 0.2;
   }
 }
