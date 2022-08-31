@@ -1,0 +1,13 @@
+#roadmap {
+  width: 100vw;
+  height: 140vh;
+  #roadmapContainer {
+    border: 1px solid wheat;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background: url(../../assets/images/roadmapbg.webp) no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+}
