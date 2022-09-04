@@ -1,0 +1,40 @@
+.backers {
+  margin: 8rem 0;
+  position: relative;
+  z-index: 2;
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.backers_bg::before {
+  background: url(../../assets/images/backerbg.webp) 50% no-repeat;
+  background-size: contain;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: scaleY(1.2);
+  transform: scaleY(1.2);
+  width: 100%;
+  z-index: -1;
+}
+.common_title {
+  align-items: center;
+  background: url(../../assets/images/titlebg.webp) 50% no-repeat;
+  background-size: cover;
+  color: #573b33;
+  display: flex;
+  font-size: 2.5rem;
+  height: 108px;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 333px;
+  z-index: 2;
+}

@@ -1,13 +1,40 @@
+@import "../../variables";
+
 #roadmap {
   width: 100vw;
   height: 140vh;
+  color: $chocolate;
   #roadmapContainer {
-    border: 1px solid wheat;
     width: 90%;
     height: 100%;
     margin: 0 auto;
     background: url(../../assets/images/roadmapbg.webp) no-repeat;
     background-size: 100%;
     background-position: center;
+    #title {
+      width: fit-content;
+      margin: 0 auto;
+      position: relative;
+      top: 5rem;
+      padding: 48px;
+      background: url(../../assets/images/titlebg.webp) no-repeat center;
+      background-size: 100%;
+    }
+    #quarters {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto;
+      .quarter {
+        width: 200px;
+        line-height: 1.7;
+        .quarterHeader {
+          text-align: center;
+          img {
+            width: 160px;
+          }
+        }
+      }
+    }
   }
 }
