@@ -8,7 +8,7 @@ const Roadmap = () => {
     <motion.div
       initial={{ y: 200, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.1 }}
       transition={{ type: "smooth", duration: 0.3 }}
       id="roadmap"
     >
