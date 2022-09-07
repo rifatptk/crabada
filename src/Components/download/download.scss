@@ -1,12 +1,19 @@
 #download {
-  // margin: 5rem 0;
+  margin: 5rem 0;
   position: relative;
   #platforms {
+    width: 100%;
+    // border: 1px solid;
     position: absolute;
     bottom: 20%;
-    flex-wrap: wrap;
-    .logo {
-      width: 220px;
+    h1 {
+      margin-bottom: 80px;
+    }
+    #brands {
+      flex-wrap: wrap;
+      .logo {
+        width: 220px;
+      }
     }
   }
 }

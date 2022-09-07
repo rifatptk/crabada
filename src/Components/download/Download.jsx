@@ -11,25 +11,25 @@ const Download = () => {
   return (
     <div id="download">
       <img src={download} alt="" width="100%" />
-      <div
-        id="platforms"
-        className="d-flex justify-content-around w-100 mx-auto"
-      >
-        <a href="#">
-          <img className="logo" src={crabada1} alt="" />
-        </a>
-        <a href="#">
-          <img className="logo" src={crabada2} alt="" />
-        </a>
-        <a href="#">
-          <img className="logo" src={crabada3} alt="" />
-        </a>
-        <a href="#">
-          <img className="logo" src={crabada4} alt="" />
-        </a>
-        <a href="#">
-          <img className="logo" src={crabada5} alt="" />
-        </a>
+      <div id="platforms">
+        <h1 className="text-center">Download</h1>
+        <div id="brands" className="d-flex justify-content-around w-100">
+          <a href="#">
+            <img className="logo" src={crabada1} alt="" />
+          </a>
+          <a href="#">
+            <img className="logo" src={crabada2} alt="" />
+          </a>
+          <a href="#">
+            <img className="logo" src={crabada3} alt="" />
+          </a>
+          <a href="#">
+            <img className="logo" src={crabada4} alt="" />
+          </a>
+          <a href="#">
+            <img className="logo" src={crabada5} alt="" />
+          </a>
+        </div>
       </div>
     </div>
   );
