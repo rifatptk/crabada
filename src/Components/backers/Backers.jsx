@@ -1,46 +1,30 @@
 import "./backers.scss";
 import avalance from "../../assets/images/avalance.png";
+import svc from "../../assets/images/svc.png";
+import wangarian from "../../assets/images/wangarian.webp";
+import capital from "../../assets/images/capital.png";
+import zee from "../../assets/images/zee.png";
+import devmons from "../../assets/images/devmons.png";
+import backersbg from "../../assets/images/backerbg.webp";
 
 const Backers = () => {
   return (
-    <section className="backers">
-      <div className="container">
-        <div className="backers_bg">
-          <div className="common_title">
-            <span>Backers</span>
-          </div>
-          <div className="backers_brands">
-            <div className="w-75 mx-auto d-flex justify-content-between">
-              <div className="h-25">
-                {/* <img src={avalance} alt="Avalanche" /> */}
-              </div>
-              <div className="h-25">
-                {/* <img src={avalance} alt="Avalanche" /> */}
-              </div>
-            </div>
-
-            <div className="w-75 mx-auto d-flex justify-content-between">
-              <div className="backers_brand">
-                <img src={avalance} alt="Sky Vision Capital" />
-              </div>
-              <div className="backers_brand">
-                <img src={avalance} alt="Wangarian" />
-              </div>
-            </div>
-
-            <div className="backers_brand">
-              <img src={avalance} alt="Not3lau White" />
-            </div>
-            <div className="backers_brand">
-              <img src={avalance} alt="Zeep Prime Whie" />
-            </div>
-            <div className="backers_brand">
-              <img src={avalance} alt="Devmons" />
-            </div>
-          </div>
+    <div id="backers">
+      <img id="bg" src={backersbg} alt="" />
+      <div id="brandsCont">
+        <h1 className="text-center" id="title">
+          Backers
+        </h1>
+        <div id="brands">
+          <img src={avalance} alt="" />
+          <img src={svc} alt="" />
+          <img src={wangarian} alt="" />
+          <img src={capital} alt="" />
+          <img src={zee} alt="" />
+          <img src={devmons} alt="" />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
