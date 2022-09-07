@@ -5,7 +5,7 @@ import Book from "./Components/book/Book";
 import Cards from "./Components/cards/Cards";
 import Discover from "./Components/discover/Discover";
 import Footer from "./Components/footer/Footer";
-// import Download from "./Components/download/Download";
+import Download from "./Components/download/Download";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Ocean from "./Components/ocean/Ocean";
@@ -38,7 +38,7 @@ function App() {
       <Discover />
       <Cards />
       <Book />
-      {/* <Download /> */}
+      <Download />
       <Rail />
       <Roadmap />
       <Backers />

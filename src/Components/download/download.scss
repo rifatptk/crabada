@@ -1,45 +1,12 @@
 #download {
-  background: url(../../assets/images/download.webp) no-repeat;
-  background-size: 100%;
-  // padding: 160px 0;
-  text-align: center;
+  // margin: 5rem 0;
+  position: relative;
   #platforms {
-    padding: 220px 0;
-    .platform {
-      width: 10%;
-      .platformLogo {
-        width: 70%;
-        position: relative;
-        z-index: 1;
-        &::before {
-          content: "";
-          width: 500%;
-          height: 500%;
-          background: url(../../assets/images/bubble.webp) no-repeat
-            center/contain;
-          position: absolute;
-          top: -6px;
-          left: -30px;
-          z-index: -1;
-        }
-      }
-
-      .platformName {
-        margin-top: 40px;
-        position: relative;
-        z-index: 1;
-        &::before {
-          content: "";
-          width: 160%;
-          height: 160%;
-          background: url(../../assets/images/brandbg.webp) no-repeat
-            center/contain;
-          position: absolute;
-          top: -6px;
-          left: -30px;
-          z-index: -1;
-        }
-      }
+    position: absolute;
+    bottom: 20%;
+    flex-wrap: wrap;
+    .logo {
+      width: 220px;
     }
   }
 }
