@@ -3,54 +3,27 @@ import "./footer.scss";
 // import twitter from "../../assets/images/twitter.webp";
 // import discord from "../../assets/images/discord.webp";
 import crabada from "../../assets/images/crabada.webp";
+import footerbg from "../../assets/images/footerbg.webp";
+import iconframe from "../../assets/images/iconframe.webp";
 
 const Footer = () => {
   return (
-    <div>
-      <footer>
-        <div className="container">
-          <div className="footer">
-            <div className="footer_info">
-              <img src={crabada} alt="Crabada" />
-              <div className="flex flex-col">
-                <div className="flex items-center">
-                  <p>Terms of service</p>
-                  <p>Whitepaper</p>
-                </div>
-                <p className="copyright">
-                  Copyright © 2021 CRABADA LLC. All rights reserved
-                </p>
-              </div>
-            </div>
-            <ul>
-              <li>
-                <a href="https://t.me/playcrabada" title="Telegram">
-                  {/* <img src={telegram} alt="Telegram" /> */}
-                </a>
-              </li>
-              <li>
-                <a href="http://discord.gg/PlayCrabada" title="Discord">
-                  {/* <img src={discord} alt="Discord" /> */}
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/playcrabada?s=11" title="Twitter">
-                  {/* <img src={twitter} alt="Twister" /> */}
-                </a>
-              </li>
-              <li>
-                <a href="https://medium.com/@PlayCrabada" title="Medium">
-                  {/* <img
-                    src="/static/media/logo_medium.932a875c6c1ac449fa6a58cc228ec4a7.svg"
-                    alt="Medium"
-                  /> */}
-                </a>
-              </li>
-            </ul>
-          </div>
+    <footer id="footer" className="">
+      <img src={footerbg} alt="" width="100%" />
+      <div id="footerContent" className="">
+        <img src={crabada} alt="" width="20%" />
+        <div className="tos">
+          <small>Terms of service</small>
+          <p>Copyright 2022 CRABADA LLC. All rights reserved.</p>
         </div>
-      </footer>
-    </div>
+        <div className="icons d-flex ">
+          <img src={iconframe} alt="" width="70px" />
+          <img src={iconframe} alt="" width="70px" />
+          <img src={iconframe} alt="" width="70px" />
+          <img src={iconframe} alt="" width="70px" />
+        </div>
+      </div>
+    </footer>
   );
 };
 

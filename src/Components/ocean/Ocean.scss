@@ -15,7 +15,7 @@
     bottom: 24px;
     left: 0;
     width: 42%;
-    animation: lgtwala 4s infinite;
+    animation: lgtwala 4s infinite ease-in-out;
   }
   #cloudy {
     position: absolute;
@@ -53,12 +53,6 @@
 }
 
 @keyframes lgtwala {
-  10% {
-    transform: skewX(2deg);
-  }
-  25% {
-    transform: skewX(3deg);
-  }
   50% {
     transform: skewX(4deg);
   }
