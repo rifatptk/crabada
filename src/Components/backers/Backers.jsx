@@ -6,10 +6,16 @@ import capital from "../../assets/images/capital.png";
 import zee from "../../assets/images/zee.png";
 import devmons from "../../assets/images/devmons.png";
 import backersbg from "../../assets/images/backerbg.webp";
+import { motion } from "framer-motion";
 
 const Backers = () => {
   return (
-    <div id="backers">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: false, amount: 0.5 }}
+      id="backers"
+    >
       <img id="bg" src={backersbg} alt="" />
       <div id="brandsCont">
         <h1 className="text-center" id="title">
@@ -24,7 +30,7 @@ const Backers = () => {
           <img src={devmons} alt="" />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
