@@ -1,0 +1,15 @@
+#railContainer {
+  margin-top: 300px;
+  position: relative;
+  #rail {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    // margin-top: -2700px;
+  }
+  #texts {
+    position: absolute;
+    top: 320px;
+  }
+}

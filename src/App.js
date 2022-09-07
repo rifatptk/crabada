@@ -8,6 +8,7 @@ import Footer from "./Components/footer/Footer";
 // import Download from "./Components/download/Download";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
+import Rail from "./Components/rail/Rail";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Sidenav from "./Components/sidenav/Sidenav";
 
@@ -37,7 +38,8 @@ function App() {
       <Cards />
       <Book />
       {/* <Download /> */}
-      <Roadmap />
+      <Rail />
+      {/* <Roadmap /> */}
       <Backers />
       <Footer />
     </div>
