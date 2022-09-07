@@ -8,6 +8,7 @@ import Footer from "./Components/footer/Footer";
 // import Download from "./Components/download/Download";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
+import Ocean from "./Components/ocean/Ocean";
 import Rail from "./Components/rail/Rail";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Sidenav from "./Components/sidenav/Sidenav";
@@ -41,6 +42,7 @@ function App() {
       <Rail />
       <Roadmap />
       <Backers />
+      <Ocean />
       <Footer />
     </div>
   );
