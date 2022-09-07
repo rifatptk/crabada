@@ -14,10 +14,16 @@
       padding: 24px 0;
     }
     #quarters {
-      margin: 0 100px;
+      margin: 0 120px;
+      display: flex;
+      gap: 24px;
+
       .quarter {
+        width: 240px;
+        // border: 1px solid gray;
         img {
-          width: 70%;
+          width: 120px;
+          margin-left: auto;
         }
         h2 {
           text-align: center;
