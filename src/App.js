@@ -39,7 +39,7 @@ function App() {
       <Book />
       {/* <Download /> */}
       <Rail />
-      {/* <Roadmap /> */}
+      <Roadmap />
       <Backers />
       <Footer />
     </div>
