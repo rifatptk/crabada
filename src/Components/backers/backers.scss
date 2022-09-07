@@ -1,6 +1,8 @@
 @import "../../variables";
 #backers {
   position: relative;
+  z-index: 1;
+  margin-bottom: -800px;
 
   #bg {
     width: 90%;
