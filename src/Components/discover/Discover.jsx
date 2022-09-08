@@ -17,8 +17,11 @@ const Discover = () => {
   return (
     <div id="discover">
       <div id="discoverHeader">
-        <h3 style={{ fontSize: "2rem" }}>Discover</h3>
-        <h2 id="title">An Exciting Undersea Adventure!</h2>
+        <h3 style={{ fontSize: "3rem" }}>Discover</h3>
+        <h2 id="title">
+          Using Token Economy to Create a Decentralized and Freely Traded Mobile
+          Pet Game
+        </h2>
       </div>
 
       <div id="images">
@@ -56,11 +59,8 @@ const Discover = () => {
         <img src={helping} id="helping" alt="" />
       </div>
       <div id="joinTheBattle">
-        <h2>Join the Battle for Treasure!</h2>
-        <p>
-          Mine, Loot Breed, Battle! Discover riches and Treasure Under Sea as
-          you send your Crabada to engage in exciting missions and battles!
-        </p>
+        <h2>Blockchain technology application</h2>
+        <p>Involved in the blockchain field for six years.</p>
       </div>
       <div id="slideFromOutside">
         <motion.img
@@ -88,18 +88,14 @@ const Discover = () => {
         />
       </div>
       <div id="joinTheBattle">
-        <h2>Battle for Glory!</h2>
-        <p>
-          Rise to the challenge and take down powerful foes in battle! Will you
-          emerge as the champion in the race for claw-supremacy?
-        </p>
+        <h2>MetaVirus Excellency</h2>
+        <p>17 years of fgame development and operation experience.</p>
       </div>
       <div id="crabada">
-        <h2>Crabada - An Exciting Cross-Platform Web3 Game</h2>
+        <h2>MetaVirus - An Exciting Blockchain Mobile Pet Game</h2>
         <p>
-          Crabada is an idle game available on most native platforms. Earn
-          in-gam rewards in exciting, idle gameplay as you send your Crabada
-          NFTs to Battle for riches and glory.
+          MetaVirus is an idle game available on most native platforms. Earn
+          in-gam rewards.
         </p>
       </div>
     </div>

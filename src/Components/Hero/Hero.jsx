@@ -1,5 +1,5 @@
 import React from "react";
-import HeroTitle from "../heroTitle/HeroTitle";
+// import HeroTitle from "../heroTitle/HeroTitle";
 import Play from "../play/Play";
 import Slider from "../slider/Slider";
 import Video from "../video/Video";
@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <Video />
       <Play />
-      <HeroTitle />
+      {/* <HeroTitle /> */}
       <Slider />
     </div>
   );

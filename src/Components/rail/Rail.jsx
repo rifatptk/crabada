@@ -17,7 +17,7 @@ function Rail() {
         src={cart}
         alt=""
       />
-      <div id="texts" className="mx-4 text-center">
+      {/* <div id="texts" className="mx-4 text-center">
         <div className="row">
           <div className="col-md-4">
             <h2 className="title">Crabada</h2>
@@ -46,7 +46,7 @@ function Rail() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

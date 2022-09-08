@@ -6,12 +6,10 @@ import { motion } from "framer-motion";
 const Book = () => {
   return (
     <div id="book" className="mt-5 text-center">
-      <h2>The Crabada NFT</h2>
+      <h2>MetaVirus</h2>
       <p>
-        Each Crabada has unique strengths and skillsets which are inherited
-        through breeding. <br />
-        Breed from 8 classes of Crabada, 64 unique Breed Types, and infinite
-        possibilities!
+        Involved in the blockchain field six years early crypto holdes. <br />
+        All-roud resources development + operation + global distribution.
       </p>
       <motion.div
         initial={{ scale: 1.2 }}

@@ -11,25 +11,24 @@ const cardsData = [
     id: 1,
     cardImageBg: cardimagebg,
     cardImage: cardimage1,
-    title: "Earn Rewards Effortlessly",
+    title: "Auto battle",
     description:
-      "Earn rewards in idle gameplay as you send your Crabada to Battle anytime, anywhere!",
+      "Auto battle pet RPG mobile online game. Q version cute style.",
   },
   {
     id: 2,
     cardImageBg: cardimagebg,
     cardImage: cardimage1,
-    title: "Go on an Exciting Adventure",
+    title: "Faction fight",
     description:
-      "Discover rich new lands and engage in challenging boss fights as you progress through Adventure Mode!",
+      "Faction fight and union war. Infinite growth Fusion Reincarnation system.",
   },
   {
     id: 3,
     cardImageBg: cardimagebg,
     cardImage: cardimage1,
-    title: "Expand your Crabada Forces",
-    description:
-      "Breed powerful and unique Crabada, each with their ow strengths and abilities to be used in battle!",
+    title: "In game wallet",
+    description: "In-game wallet, exchange, NFT auction house.",
   },
 ];
 const Cards = () => {
