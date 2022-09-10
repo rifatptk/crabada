@@ -3,7 +3,7 @@ import gameright from "../../assets/images/gameright.png";
 
 const GameContents = () => {
   return (
-    <div id="cotents" className="container mb-5">
+    <div id="contents" className="container mb-5">
       <h1 className="text-center mb-5">Game Content</h1>
       <div className="row">
         <div className="col-md-6">

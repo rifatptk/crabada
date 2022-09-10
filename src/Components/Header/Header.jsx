@@ -41,7 +41,13 @@ function Header() {
                 animate={{ y: 0 }}
                 id="moreItems"
               >
-                <div className="moreItem">Add Team</div>
+                <a
+                  href="#contents"
+                  style={{ textShadow: "unset" }}
+                  className="moreItem"
+                >
+                  Game Contents
+                </a>
                 <div id="border"></div>
                 <div className="moreItem">Lucky Draw</div>
               </motion.div>
