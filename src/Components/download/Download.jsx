@@ -14,19 +14,19 @@ const Download = () => {
       <div id="platforms">
         <h1 className="text-center">Download</h1>
         <div id="brands" className="d-flex justify-content-around w-100">
-          <a href="#">
+          <a href="#jfh">
             <img className="logo" src={crabada1} alt="" />
           </a>
-          <a href="#">
+          <a href="#ASD">
             <img className="logo" src={crabada2} alt="" />
           </a>
-          <a href="#">
+          <a href="#FDS">
             <img className="logo" src={crabada3} alt="" />
           </a>
-          <a href="#">
+          <a href="#SDFSDF">
             <img className="logo" src={crabada4} alt="" />
           </a>
-          <a href="#">
+          <a href="#SDF">
             <img className="logo" src={crabada5} alt="" />
           </a>
         </div>

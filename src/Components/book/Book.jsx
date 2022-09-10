@@ -6,10 +6,12 @@ import { motion } from "framer-motion";
 const Book = () => {
   return (
     <div id="book" className="mt-5 text-center">
-      <h2>MetaVirus</h2>
+      <h2>Resource Recycling</h2>
       <p>
-        Involved in the blockchain field six years early crypto holdes. <br />
-        All-roud resources development + operation + global distribution.
+        Production and maintenance of scarce resources consumes resources and{" "}
+        <br />
+        money Combat and labor deplete basic resources Taxes arising from any
+        transaction
       </p>
       <motion.div
         initial={{ scale: 1.2 }}

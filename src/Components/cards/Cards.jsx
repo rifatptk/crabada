@@ -11,24 +11,25 @@ const cardsData = [
     id: 1,
     cardImageBg: cardimagebg,
     cardImage: cardimage1,
-    title: "Auto battle",
+    title: "GameFi Thinking",
     description:
-      "Auto battle pet RPG mobile online game. Q version cute style.",
+      "F2P（Free to Play）free games P2E（Play to Earn）Earn money while playing Incentivize Crypto and asset trading behavior among players",
   },
   {
     id: 2,
     cardImageBg: cardimagebg,
     cardImage: cardimage1,
-    title: "Faction fight",
+    title: "Income Distribution",
     description:
-      "Faction fight and union war. Infinite growth Fusion Reincarnation system.",
+      "Faction fight and union war. Infinite growth Fusion Reincarnation system.Players acquire resources and currency through in-game labor Game teams and investors get game tax dividends by holding governance tokens Decentralized smart contracts realize automatic distribution of income",
   },
   {
     id: 3,
     cardImageBg: cardimagebg,
     cardImage: cardimage1,
-    title: "In game wallet",
-    description: "In-game wallet, exchange, NFT auction house.",
+    title: "Crypto Circulation",
+    description:
+      "Players will never be able to recharge in-game All demand currency comes from game output or exchange purchasePlay to earn game currency and NFT (scarce resource non-fungible token)In-game wallet, exchange, NFT auction house.",
   },
 ];
 const Cards = () => {

@@ -20,13 +20,13 @@ function Header() {
             <a href=".">Home</a>{" "}
           </li>
           <li className="navLink">
-            <a href="#marketplace">Marketplace</a>{" "}
+            <a href="#book">Marketplace</a>{" "}
           </li>
           <li className="navLink">
-            <a href="#staking">Staking</a>{" "}
+            <a href="#cards">Economic</a>{" "}
           </li>
           <li className="navLink">
-            <a href="#bounty">Bounty</a>{" "}
+            <a href="#download">Download</a>{" "}
           </li>
           <li className="navLink" onClick={() => setShowMore(!showMore)}>
             <a href="#more">
@@ -48,7 +48,7 @@ function Header() {
             )}
           </li>
           <li className="navLink">
-            <a href="#whitepaper">Whitepaper</a>{" "}
+            <a href="#roadmap">Process</a>{" "}
           </li>
         </ul>
       </div>

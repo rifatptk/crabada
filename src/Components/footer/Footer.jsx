@@ -17,7 +17,7 @@ const Footer = () => {
         <img src={crabada} alt="" width="20%" />
         <div className="tos">
           <small>Terms of service</small>
-          <p>Copyright 2022 CRABADA LLC. All rights reserved.</p>
+          <p>Copyright 2022 METAVIRUS LLC. All rights reserved.</p>
         </div>
         <div className="icons d-flex ">
           <img src={links1} alt="" width="70px" />
