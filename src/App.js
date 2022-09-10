@@ -12,6 +12,7 @@ import Ocean from "./Components/ocean/Ocean";
 import Rail from "./Components/rail/Rail";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Sidenav from "./Components/sidenav/Sidenav";
+import GameContents from "./Components/gameContents/GameContents";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -41,6 +42,7 @@ function App() {
       <Download />
       <Rail />
       <Roadmap />
+      <GameContents />
       <Backers />
       <Ocean />
       <Footer />
