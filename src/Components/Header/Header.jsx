@@ -7,10 +7,7 @@ import { motion } from "framer-motion";
 function Header() {
   const [showMore, setShowMore] = useState(false);
   return (
-    <div
-      id="header"
-      className="d-flex justify-content-between align-items-center mx-5 my-3"
-    >
+    <div id="header" className="mx-5 my-3">
       <div id="logoContainer">
         <img src={logo} alt="" />
       </div>
@@ -58,7 +55,6 @@ function Header() {
           </li>
         </ul>
       </div>
-      <div></div>
     </div>
   );
 }

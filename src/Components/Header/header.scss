@@ -20,13 +20,17 @@
       content: "";
       position: absolute;
       top: 0;
-      left: 27%;
+      left: 50%;
+      transform: translateX(-45%);
       width: 100%;
       z-index: -1;
     }
     #navLinks {
-      margin-left: 0;
-      margin-top: -40px;
+      position: absolute;
+      top: 54px;
+      left: 50%;
+      transform: translateX(-50%);
+
       list-style: none;
       .navLink {
         position: relative;
@@ -73,5 +77,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  #navbarContainer {
+    display: none;
   }
 }
