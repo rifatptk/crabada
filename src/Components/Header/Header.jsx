@@ -1,4 +1,4 @@
-import logo from "../../assets/logos/logo.webp";
+import logo from "../../assets/images/logo.png";
 import "./header.scss";
 import { TbArrowBigUpLines } from "react-icons/tb";
 import { useState } from "react";
