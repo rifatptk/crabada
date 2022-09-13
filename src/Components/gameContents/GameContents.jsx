@@ -9,6 +9,10 @@ import left from "../../assets/images/j2.png";
 import right from "../../assets/images/j3.png";
 import eleven from "../../assets/images/11.jpg";
 import thirteen from "../../assets/images/13.jpg";
+import a6 from "../../assets/images/a-06.jpg";
+import a7 from "../../assets/images/a-07.jpg";
+import a8 from "../../assets/images/a-08.jpg";
+import a9 from "../../assets/images/a-09.jpg";
 
 const GameContents = () => {
   return (
@@ -65,8 +69,21 @@ const GameContents = () => {
           <img src={bemil} className="mt-3 rounded" alt="" width="100%" />
         </div>
       </div>
-      <img src={eleven} alt="" className="mt-5 rounded" width="100%" />
-      <img src={thirteen} alt="" className="mt-5 rounded" width="100%" />
+      <div className="row">
+        <div className="col-md-6">
+          <img src={thirteen} alt="" className="mt-5 rounded" width="100%" />
+        </div>
+        <div className="col-md-6">
+          <img src={eleven} alt="" className="mt-5 rounded" width="100%" />
+        </div>
+      </div>
+
+      <div className=" py-5">
+        <img src={a6} alt="" className="rounded" width="100%" />
+        <img src={a7} alt="" className="rounded my-5" width="100%" />
+        <img src={a8} alt="" className="rounded" width="100%" />
+        <img src={a9} alt="" className="rounded my-5" width="100%" />
+      </div>
     </div>
   );
 };
