@@ -24,10 +24,12 @@
     #brands {
       width: 60%;
       margin: 0 auto;
-      // display: flex;
-      // justify-content: space-between;
-      // flex-wrap: wrap;
-      // gap: 200px;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  #backers {
+    display: none;
   }
 }

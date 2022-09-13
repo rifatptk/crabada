@@ -17,36 +17,6 @@ function Rail() {
         src={cart}
         alt=""
       />
-      {/* <div id="texts" className="mx-4 text-center">
-        <div className="row">
-          <div className="col-md-4">
-            <h2 className="title">Crabada</h2>
-            <p>(NFT Assets)</p>
-            <p className="mt-2">
-              Crabada can be bred and used in games to earn in-game rewards. All
-              Crabada live on the blockchain so players have full control of
-              their assets.
-            </p>
-          </div>
-          <div className="col-md-4">
-            <h2 className="title">CRA</h2>
-            <p>(Crabada Token)</p>
-            <p className="mt-2">
-              CRA is a governance token which is rewarded via staking and
-              playing the game during the incentive period.
-            </p>
-          </div>
-          <div className="col-md-4">
-            <h2 className="title">TUS</h2>
-            <p>(Treasure Under Sea)</p>
-            <p className="mt-2">
-              TUS is the in-game currency earned via playing the game, or
-              crafted using in-game Material through various available game
-              modes.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

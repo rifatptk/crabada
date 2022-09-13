@@ -44,7 +44,7 @@ const Cards = () => {
         id="cards"
         initial={"hidden"}
         whileInView={"shown"}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.1 }}
         transition={{ staggerChildren: 0.2 }}
       >
         {cardsData.map((cardData) => (

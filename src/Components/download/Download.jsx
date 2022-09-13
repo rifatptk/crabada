@@ -10,7 +10,7 @@ import download from "../../assets/images/download.webp";
 const Download = () => {
   return (
     <div id="download">
-      <img src={download} alt="" width="100%" />
+      <img id="dbg" src={download} alt="" width="100%" />
       <div id="platforms">
         <h1 className="text-center">Download</h1>
         <div id="brands" className="d-flex justify-content-around w-100">

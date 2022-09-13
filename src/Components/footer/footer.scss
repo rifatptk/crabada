@@ -14,6 +14,27 @@
     }
     .icons {
       margin-left: auto;
+      img {
+        width: 70px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #footer {
+    #footerContent {
+      top: 40%;
+      .tos {
+        font-size: 10px;
+        margin-left: 32px;
+      }
+      .icons {
+        margin-left: auto;
+        img {
+          width: 32px;
+        }
+      }
     }
   }
 }

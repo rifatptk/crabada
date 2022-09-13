@@ -55,9 +55,8 @@ const GameContents = () => {
         <h3>A little gameplay</h3>
         <div className="col-md-6 ">
           <video
-            autoPlay
+            controls
             muted
-            loop
             className="rounded"
             src={video}
             width="100%"

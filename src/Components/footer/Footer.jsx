@@ -20,10 +20,10 @@ const Footer = () => {
           <p>Copyright 2022 METAVIRUS LLC. All rights reserved.</p>
         </div>
         <div className="icons d-flex align-items-center ">
-          <img src={links1} alt="" width="70px" />
-          <img src={links2} alt="" width="70px" />
-          <img src={links3} alt="" width="70px" />
-          <img src={links4} alt="" width="70px" />
+          <img src={links1} alt="" />
+          <img src={links2} alt="" />
+          <img src={links3} alt="" />
+          <img src={links4} alt="" />
         </div>
       </div>
     </footer>

@@ -28,3 +28,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 800px) {
+  #sidenav {
+    display: none;
+  }
+}

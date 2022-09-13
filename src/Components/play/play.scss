@@ -39,3 +39,8 @@
     transform: translateY(8px);
   }
 }
+@media (max-width: 800px) {
+  #play {
+    display: none;
+  }
+}
