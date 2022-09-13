@@ -49,17 +49,24 @@ const GameContents = () => {
       </div>
       <div className="row">
         <h3>A little gameplay</h3>
-        <div className="col-md-6">
-          <video autoPlay muted loop src={video} width="100%"></video>
+        <div className="col-md-6 ">
+          <video
+            autoPlay
+            muted
+            loop
+            className="rounded"
+            src={video}
+            width="100%"
+          ></video>
         </div>
         <div className="col-md-6">
-          <img src={a1} alt="" width="100%" />
-          <img src={lo} className="mt-3" alt="" width="100%" />
-          <img src={bemil} className="mt-3" alt="" width="100%" />
+          <img src={a1} className="rounded" alt="" width="100%" />
+          <img src={lo} className="mt-3 rounded" alt="" width="100%" />
+          <img src={bemil} className="mt-3 rounded" alt="" width="100%" />
         </div>
       </div>
-      <img src={eleven} alt="" className="mt-5" width="100%" />
-      <img src={thirteen} alt="" className="mt-5" width="100%" />
+      <img src={eleven} alt="" className="mt-5 rounded" width="100%" />
+      <img src={thirteen} alt="" className="mt-5 rounded" width="100%" />
     </div>
   );
 };
