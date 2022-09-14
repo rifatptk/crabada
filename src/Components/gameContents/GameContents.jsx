@@ -76,11 +76,14 @@ const GameContents = () => {
           <img src={eleven} alt="" className="mt-5 rounded" width="100%" />
         </div>
       </div>
-
+      <h1 className="mt-5 pt-5 mb-2 text-center">More details</h1>
+      <h5 className="text-center">Token, Liquidity & Process</h5>
       <div className=" py-5">
         <img src={a6} alt="" className="rounded" width="100%" />
         <img src={a7} alt="" className="rounded my-5" width="100%" />
         <img id="process" src={a8} alt="" className="rounded" width="100%" />
+        <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>
+        <h5 className="text-center">Here is our team</h5>
         <img src={a9} alt="" className="rounded my-5" width="100%" />
       </div>
     </div>
