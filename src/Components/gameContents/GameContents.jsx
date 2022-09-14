@@ -80,7 +80,7 @@ const GameContents = () => {
       <div className=" py-5">
         <img src={a6} alt="" className="rounded" width="100%" />
         <img src={a7} alt="" className="rounded my-5" width="100%" />
-        <img src={a8} alt="" className="rounded" width="100%" />
+        <img id="process" src={a8} alt="" className="rounded" width="100%" />
         <img src={a9} alt="" className="rounded my-5" width="100%" />
       </div>
     </div>

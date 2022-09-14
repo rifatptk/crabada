@@ -3,8 +3,10 @@ import "./header.scss";
 import { TbArrowBigUpLines } from "react-icons/tb";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { CgMenuGridO } from "react-icons/cg";
 
 function Header() {
+  const [showMobileNav, setshowMobileNav] = useState(false);
   const [showMore, setShowMore] = useState(false);
   return (
     <div id="header" className="mx-5 my-3">
@@ -55,6 +57,34 @@ function Header() {
           </li>
         </ul>
       </div>
+
+      <div id="mobileNavBtn" onClick={() => setshowMobileNav(!showMobileNav)}>
+        <CgMenuGridO />
+      </div>
+      {showMobileNav && (
+        <div id="mobileNav">
+          <ul id="mobileNavLinks" className="">
+            <li className="navLink">
+              <a href=".">Home</a>{" "}
+            </li>
+            <li className="navLink">
+              <a href="#book">Marketplace</a>{" "}
+            </li>
+            <li className="navLink">
+              <a href="#cards">Economic</a>{" "}
+            </li>
+            <li className="navLink">
+              <a href="#download">Download</a>{" "}
+            </li>
+            <li className="navLink">
+              <a href="#contents">Game Contents</a>
+            </li>
+            <li className="navLink">
+              <a href="#process">Process</a>{" "}
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
