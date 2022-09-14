@@ -1,0 +1,14 @@
+.tbl {
+  width: 100%;
+  th,
+  td {
+    padding: 4px;
+    border-bottom: 1px dotted gray;
+  }
+}
+
+@media (max-width: 600px) {
+  .tbl {
+    font-size: 12px;
+  }
+}

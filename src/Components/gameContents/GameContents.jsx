@@ -2,17 +2,18 @@ import gameleft from "../../assets/images/gameleft.png";
 import gameright from "../../assets/images/gameright.png";
 import video from "../../assets/videos/video.mp4";
 import j7 from "../../assets/images/j7.png";
-import a1 from "../../assets/images/a-01.jpg";
-import bemil from "../../assets/images/index.jpg";
+// import a1 from "../../assets/images/a-01.jpg";
+// import bemil from "../../assets/images/index.jpg";
 import lo from "../../assets/images/12.jpg";
 import left from "../../assets/images/j2.png";
 import right from "../../assets/images/j3.png";
 import eleven from "../../assets/images/11.jpg";
 import thirteen from "../../assets/images/13.jpg";
-import a6 from "../../assets/images/a-06.jpg";
+// import a6 from "../../assets/images/a-06.jpg";
 import a7 from "../../assets/images/a-07.jpg";
-import a8 from "../../assets/images/a-08.jpg";
-import a9 from "../../assets/images/a-09.jpg";
+// import a8 from "../../assets/images/a-08.jpg";
+// import a9 from "../../assets/images/a-09.jpg";
+import "./content.scss";
 
 const GameContents = () => {
   return (
@@ -63,28 +64,178 @@ const GameContents = () => {
           ></video>
         </div>
         <div className="col-md-6">
-          <img src={a1} className="rounded" alt="" width="100%" />
+          <img src={eleven} className="rounded" alt="" width="100%" />
           <img src={lo} className="mt-3 rounded" alt="" width="100%" />
-          <img src={bemil} className="mt-3 rounded" alt="" width="100%" />
+          <img src={thirteen} className="mt-3 rounded" alt="" width="100%" />
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-6">
-          <img src={thirteen} alt="" className="mt-5 rounded" width="100%" />
-        </div>
-        <div className="col-md-6">
-          <img src={eleven} alt="" className="mt-5 rounded" width="100%" />
-        </div>
-      </div>
+
       <h1 className="mt-5 pt-5 mb-2 text-center">More details</h1>
-      <h5 className="text-center">Token, Liquidity & Process</h5>
+      <h5 className="text-center">Token & Liquidity</h5>
+
+      <div className="container py-5">
+        <h1 id="why-title" className="mb-5">
+          Token Distribution
+        </h1>
+
+        <table className="tbl">
+          <thead>
+            <tr>
+              <th>CONTENT</th>
+              <th>PERCENTAGE</th>
+              <th>NUMBER</th>
+              <th>PRICE (USD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total issuance</td>
+              <td>100%</td>
+              <td>100,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Cornerstone round financing (Done)</td>
+              <td>3%</td>
+              <td>3,000,000</td>
+              <td>$300,000</td>
+            </tr>
+            <tr>
+              <td>Seed round financing (In progress)</td>
+              <td>7%</td>
+              <td>7,000,000</td>
+              <td>$1,400,000</td>
+            </tr>
+            <tr>
+              <td>First pre sale</td>
+              <td>4%</td>
+              <td>4,000,000</td>
+              <td>1,200,000</td>
+            </tr>
+            <tr>
+              <td>Second batch of pre sale</td>
+              <td>6%</td>
+              <td>6,000,000</td>
+              <td>$2,40,000</td>
+            </tr>
+            <tr>
+              <td>ICO/IDO</td>
+              <td>10%</td>
+              <td>10,000,000</td>
+              <td>$5,000,000</td>
+            </tr>
+            <tr>
+              <td>Founder & Team</td>
+              <td>18%</td>
+              <td>18,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Consultant</td>
+              <td>6%</td>
+              <td>6,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Game output</td>
+              <td>20%</td>
+              <td>20,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Marketing cooperation</td>
+              <td>6%</td>
+              <td>6,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Community airdrop</td>
+              <td>3%</td>
+              <td>3,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>User creation reward</td>
+              <td>7%</td>
+              <td>7,000,000</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Company reserve</td>
+              <td>10%</td>
+              <td>10,000,000</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div className=" py-5">
-        <img src={a6} alt="" className="rounded" width="100%" />
+        {/* <img src={a6} alt="" className="rounded" width="100%" /> */}
         <img src={a7} alt="" className="rounded my-5" width="100%" />
-        <img id="process" src={a8} alt="" className="rounded" width="100%" />
+        {/* <img id="process" src={a8} alt="" className="rounded" width="100%" /> */}
         <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>
-        <h5 className="text-center">Here is our team</h5>
-        <img src={a9} alt="" className="rounded my-5" width="100%" />
+        <h5 className="text-center mb-5">Meet is our team</h5>
+        <div className="row">
+          <div className="col-md-6 p-3">
+            <h3>Brice Bian - Founder and Game Producer</h3>
+            <small>
+              More than 17 years of experience in gam development and more than
+              4 years of experience in blockchain game development. Head of the
+              development and operation team of several tens of millions of
+              traditional online game products,serial entrepreneur, and
+              successfull executive. Living in canada, Brice owns lucrative
+              companies in many fields including food delivery, biodegradable
+              plastic products in cities like Vancouver in western canada.
+              Brice's expericnce in creation and management has ecouraged the
+              metavirus project with maturity and excellence in the design of
+              the game product itself, while strengthening output efficiency and
+              the close cooperation of the founding team.
+            </small>
+          </div>
+          <div className="col-md-6 p-3">
+            <h3>Qilin - Co-founder and COO</h3>
+            <small>
+              Plentiful practical experience in the fields of blockchain,
+              finance and media, Qilin has operated several successful projects
+              in the blockchain field, managed & operated a blockchain
+              distributed overseas storage branch. Qilin is blockchain angel
+              investor, founder of beijing gongxin sunac cloud technology
+              co.,Ltd. And chairman of the yottachain education committee, an
+              internationally renowned public storage chain. Qilin's
+              entrepreneurial and investment experience in the blockchain field
+              gives sufficient depth and innovation to the MetaVirus projects's
+              decentralized structure, management thinking & financial attribute
+              design. and can develop an industry leading marketing strategy for
+              the project.
+            </small>
+          </div>
+        </div>
+        <div className="row ">
+          <div className="col-md-6 p-3">
+            <h3>TT - Co-founder and CTO</h3>
+            <small>
+              More than 18 years of experience in gam development. Chief
+              architect and technical director of millions online traditional
+              online gam products. Technical director of large-scale travel
+              experience VR game products. TT's massively multiplayer online
+              game developement experience can ensure that the product is
+              technically stable, functional & scalable.
+            </small>
+          </div>
+          <div className="col-md-6 p-3">
+            <h3>Chiris - Copywriting & Graphics director</h3>
+            <small>
+              Chiris Horwood is a teacher and coach who has spent almost two
+              decades in asia and travelling the world. Chiris has produced one
+              feature-length documentary and multiple short films. His
+              photography and digital art has featured in various publication
+              and some of his work can be found in personal collections and on
+              the walls of select cafes and restaurants.
+            </small>
+          </div>
+        </div>
+        {/* <img src={a9} alt="" className="rounded my-5" width="100%" /> */}
       </div>
     </div>
   );
