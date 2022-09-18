@@ -9,7 +9,8 @@ import left from "../../assets/images/j2.png";
 import right from "../../assets/images/j3.png";
 import eleven from "../../assets/images/11.jpg";
 import thirteen from "../../assets/images/13.jpg";
-// import a6 from "../../assets/images/a-06.jpg";
+import a5 from "../../assets/images/a-05.jpg";
+import a6 from "../../assets/images/a-06.jpg";
 import a7 from "../../assets/images/a-07.jpg";
 // import a8 from "../../assets/images/a-08.jpg";
 // import a9 from "../../assets/images/a-09.jpg";
@@ -171,8 +172,9 @@ const GameContents = () => {
       </div>
 
       <div className=" py-5">
-        {/* <img src={a6} alt="" className="rounded" width="100%" /> */}
+        <img src={a5} alt="" className="rounded" width="100%" />
         <img src={a7} alt="" className="rounded my-5" width="100%" />
+        <img src={a6} alt="" className="rounded my-5" width="100%" />
         {/* <img id="process" src={a8} alt="" className="rounded" width="100%" /> */}
         <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>
         <h5 className="text-center mb-5">Meet is our team</h5>
