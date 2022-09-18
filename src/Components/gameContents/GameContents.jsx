@@ -179,8 +179,30 @@ const GameContents = () => {
       </div>
 
       <div className=" py-5">
-        <img src={a5} alt="" className="rounded" width="100%" />
-        <img src={a7} alt="" className="rounded my-5" width="100%" />
+        <div className="pattern p-5 rounded">
+          <div className="paper p-3 bg-white rounded">
+            <div className="pin"></div>
+            <div className="pin"></div>
+            <div className="pin"></div>
+            <div className="pin"></div>
+            <h2 className="text-center text-dark mt-5">Interactive System</h2>
+            <hr className="text-dark" />
+            <img src={a5} alt="" className="rounded" width="100%" />
+          </div>
+        </div>
+        <div className="pattern p-5 rounded my-5">
+          <div className="paper p-3 bg-white rounded">
+            <div className="pin"></div>
+            <div className="pin"></div>
+            <div className="pin"></div>
+            <div className="pin"></div>
+            <h2 className="text-center text-dark mt-5">
+              Liquidity Distribution
+            </h2>
+            <hr className="text-dark" />
+            <img src={a7} alt="" className="rounded my-5" width="100%" />
+          </div>
+        </div>
         {/* <img src={a6} alt="" className="rounded my-5" width="100%" /> */}
         {/* <img id="process" src={a8} alt="" className="rounded" width="100%" /> */}
         <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>

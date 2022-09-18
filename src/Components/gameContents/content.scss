@@ -1,3 +1,5 @@
+@import "../../variables";
+
 .tbl {
   width: 100%;
   th,
@@ -10,5 +12,40 @@
 @media (max-width: 600px) {
   .tbl {
     font-size: 12px;
+  }
+}
+
+.pattern {
+  background-color: #e5c9a6;
+  opacity: 0.8;
+  background-image: linear-gradient(
+    to right,
+    #d0b697,
+    #d0b697 7px,
+    #e5c9a6 7px,
+    #e5c9a6
+  );
+  background-size: 14px 100%;
+}
+
+.paper {
+  position: relative;
+  .pin {
+    width: 24px;
+    height: 24px;
+    background-color: #e5c9a6;
+    position: absolute;
+    border-radius: 50%;
+    border: 6px solid gray;
+  }
+  .pin:nth-child(2) {
+    right: 12px;
+  }
+  .pin:nth-child(3) {
+    bottom: 12px;
+  }
+  .pin:nth-child(4) {
+    bottom: 12px;
+    right: 12px;
   }
 }
