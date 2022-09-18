@@ -10,7 +10,8 @@ import right from "../../assets/images/j3.png";
 import eleven from "../../assets/images/11.jpg";
 import thirteen from "../../assets/images/13.jpg";
 import a5 from "../../assets/images/a-05.jpg";
-import a6 from "../../assets/images/a-06.jpg";
+import tokenchart from "../../assets/images/tokenchart.png";
+// import a6 from "../../assets/images/a-06.jpg";
 import a7 from "../../assets/images/a-07.jpg";
 // import a8 from "../../assets/images/a-08.jpg";
 // import a9 from "../../assets/images/a-09.jpg";
@@ -78,103 +79,109 @@ const GameContents = () => {
         <h1 id="why-title" className="mb-5">
           Token Distribution
         </h1>
-
-        <table className="tbl">
-          <thead>
-            <tr>
-              <th>CONTENT</th>
-              <th>PERCENTAGE</th>
-              <th>NUMBER</th>
-              <th>PRICE (USD)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Total issuance</td>
-              <td>100%</td>
-              <td>100,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Cornerstone round financing (Done)</td>
-              <td>3%</td>
-              <td>3,000,000</td>
-              <td>$300,000</td>
-            </tr>
-            <tr>
-              <td>Seed round financing (In progress)</td>
-              <td>7%</td>
-              <td>7,000,000</td>
-              <td>$1,400,000</td>
-            </tr>
-            <tr>
-              <td>First pre sale</td>
-              <td>4%</td>
-              <td>4,000,000</td>
-              <td>1,200,000</td>
-            </tr>
-            <tr>
-              <td>Second batch of pre sale</td>
-              <td>6%</td>
-              <td>6,000,000</td>
-              <td>$2,40,000</td>
-            </tr>
-            <tr>
-              <td>ICO/IDO</td>
-              <td>10%</td>
-              <td>10,000,000</td>
-              <td>$5,000,000</td>
-            </tr>
-            <tr>
-              <td>Founder & Team</td>
-              <td>18%</td>
-              <td>18,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Consultant</td>
-              <td>6%</td>
-              <td>6,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Game output</td>
-              <td>20%</td>
-              <td>20,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Marketing cooperation</td>
-              <td>6%</td>
-              <td>6,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Community airdrop</td>
-              <td>3%</td>
-              <td>3,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>User creation reward</td>
-              <td>7%</td>
-              <td>7,000,000</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Company reserve</td>
-              <td>10%</td>
-              <td>10,000,000</td>
-              <td>-</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <table className="tbl">
+              <thead>
+                <tr>
+                  <th>CONTENT</th>
+                  <th>PERCENTAGE</th>
+                  <th>NUMBER</th>
+                  <th>PRICE (USD)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Total issuance</td>
+                  <td>100%</td>
+                  <td>100,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Cornerstone round financing (Done)</td>
+                  <td>3%</td>
+                  <td>3,000,000</td>
+                  <td>$300,000</td>
+                </tr>
+                <tr>
+                  <td>Seed round financing (In progress)</td>
+                  <td>7%</td>
+                  <td>7,000,000</td>
+                  <td>$1,400,000</td>
+                </tr>
+                <tr>
+                  <td>First pre sale</td>
+                  <td>4%</td>
+                  <td>4,000,000</td>
+                  <td>1,200,000</td>
+                </tr>
+                <tr>
+                  <td>Second batch of pre sale</td>
+                  <td>6%</td>
+                  <td>6,000,000</td>
+                  <td>$2,40,000</td>
+                </tr>
+                <tr>
+                  <td>ICO/IDO</td>
+                  <td>10%</td>
+                  <td>10,000,000</td>
+                  <td>$5,000,000</td>
+                </tr>
+                <tr>
+                  <td>Founder & Team</td>
+                  <td>18%</td>
+                  <td>18,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Consultant</td>
+                  <td>6%</td>
+                  <td>6,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Game output</td>
+                  <td>20%</td>
+                  <td>20,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Marketing cooperation</td>
+                  <td>6%</td>
+                  <td>6,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Community airdrop</td>
+                  <td>3%</td>
+                  <td>3,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>User creation reward</td>
+                  <td>7%</td>
+                  <td>7,000,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Company reserve</td>
+                  <td>10%</td>
+                  <td>10,000,000</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="col-md-6 mt-sm-5">
+            <img src={tokenchart} alt="" width="100%" />
+          </div>
+        </div>
       </div>
 
       <div className=" py-5">
         <img src={a5} alt="" className="rounded" width="100%" />
         <img src={a7} alt="" className="rounded my-5" width="100%" />
-        <img src={a6} alt="" className="rounded my-5" width="100%" />
+        {/* <img src={a6} alt="" className="rounded my-5" width="100%" /> */}
         {/* <img id="process" src={a8} alt="" className="rounded" width="100%" /> */}
         <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>
         <h5 className="text-center mb-5">Meet is our team</h5>
