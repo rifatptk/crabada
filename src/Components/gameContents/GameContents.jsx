@@ -12,7 +12,8 @@ import thirteen from "../../assets/images/13.jpg";
 import a5 from "../../assets/images/a-05.jpg";
 import tokenchart from "../../assets/images/tokenchart.png";
 // import a6 from "../../assets/images/a-06.jpg";
-import a7 from "../../assets/images/a-07.jpg";
+import a71 from "../../assets/images/a-071.jpg";
+import a72 from "../../assets/images/a-072.jpg";
 // import a8 from "../../assets/images/a-08.jpg";
 // import a9 from "../../assets/images/a-09.jpg";
 import "./content.scss";
@@ -179,30 +180,19 @@ const GameContents = () => {
       </div>
 
       <div className=" py-5">
-        <div className="pattern p-5 rounded">
-          <div className="paper p-3 bg-white rounded">
-            <div className="pin"></div>
-            <div className="pin"></div>
-            <div className="pin"></div>
-            <div className="pin"></div>
-            <h2 className="text-center text-dark mt-5">Interactive System</h2>
-            <hr className="text-dark" />
-            <img src={a5} alt="" className="rounded" width="100%" />
+        <h2 className="text-center mt-5">Interactive System</h2>
+        <img src={a5} alt="" className="rounded" width="100%" />
+
+        <h2 className="text-center mt-5 mb-0 pt-5">Liquidity Distribution</h2>
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <img src={a71} alt="" className="rounded my-5" width="100%" />
+          </div>
+          <div className="col-md-6">
+            <img src={a72} alt="" className="rounded my-5" width="100%" />
           </div>
         </div>
-        <div className="pattern p-5 rounded my-5">
-          <div className="paper p-3 bg-white rounded">
-            <div className="pin"></div>
-            <div className="pin"></div>
-            <div className="pin"></div>
-            <div className="pin"></div>
-            <h2 className="text-center text-dark mt-5">
-              Liquidity Distribution
-            </h2>
-            <hr className="text-dark" />
-            <img src={a7} alt="" className="rounded my-5" width="100%" />
-          </div>
-        </div>
+
         {/* <img src={a6} alt="" className="rounded my-5" width="100%" /> */}
         {/* <img id="process" src={a8} alt="" className="rounded" width="100%" /> */}
         <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>
