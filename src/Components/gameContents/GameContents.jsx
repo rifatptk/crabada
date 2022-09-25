@@ -2,20 +2,12 @@ import gameleft from "../../assets/images/gameleft.png";
 import gameright from "../../assets/images/gameright.png";
 import video from "../../assets/videos/video.mp4";
 import j7 from "../../assets/images/j7.png";
-// import a1 from "../../assets/images/a-01.jpg";
-// import bemil from "../../assets/images/index.jpg";
-import lo from "../../assets/images/12.jpg";
 import left from "../../assets/images/j2.png";
 import right from "../../assets/images/j3.png";
-import eleven from "../../assets/images/11.jpg";
-import thirteen from "../../assets/images/13.jpg";
-import a5 from "../../assets/images/a-05.jpg";
+import a5 from "../../assets/images/a-05.png";
 import tokenchart from "../../assets/images/tokenchart.png";
-// import a6 from "../../assets/images/a-06.jpg";
-import a71 from "../../assets/images/a-071.jpg";
-import a72 from "../../assets/images/a-072.jpg";
-// import a8 from "../../assets/images/a-08.jpg";
-// import a9 from "../../assets/images/a-09.jpg";
+import a71 from "../../assets/images/a-071.png";
+import a72 from "../../assets/images/a-072.png";
 import "./content.scss";
 
 const GameContents = () => {
@@ -55,22 +47,22 @@ const GameContents = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="text-center mt-5">
         <h3>A little gameplay</h3>
-        <div className="col-md-6 ">
+        <div className=" ">
           <video
             controls
             muted
             className="rounded"
             src={video}
-            width="100%"
+            width="50%"
           ></video>
         </div>
-        <div className="col-md-6">
+        {/* <div className="col-md-6">
           <img src={eleven} className="rounded" alt="" width="100%" />
           <img src={lo} className="mt-3 rounded" alt="" width="100%" />
           <img src={thirteen} className="mt-3 rounded" alt="" width="100%" />
-        </div>
+        </div> */}
       </div>
 
       <h1 className="mt-5 pt-5 mb-2 text-center">More details</h1>
