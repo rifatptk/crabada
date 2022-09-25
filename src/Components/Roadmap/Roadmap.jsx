@@ -54,7 +54,6 @@ const Roadmap = () => {
             <ul className="points">
               <li>Exchanges</li>
               <li>Asset pre-sale</li>
-              <li>Crabada Breeding Feature</li>
               <li>Closed test</li>
               <li>Game platform warm-up</li>
               <li>Internal test</li>

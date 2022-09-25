@@ -196,7 +196,7 @@ const GameContents = () => {
         {/* <img src={a6} alt="" className="rounded my-5" width="100%" /> */}
         {/* <img id="process" src={a8} alt="" className="rounded" width="100%" /> */}
         <h1 className="mt-5 pt-5 mb-2 text-center">Team</h1>
-        <h5 className="text-center mb-5">Meet is our team</h5>
+        <h5 className="text-center mb-5">Meet our team</h5>
         <div className="row">
           <div className="col-md-6 p-3">
             <h3>Brice Bian - Founder and Game Producer</h3>
