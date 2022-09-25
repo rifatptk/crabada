@@ -15,7 +15,7 @@ const Book = () => {
       </p>
       <motion.div
         initial={{ scale: 1.2 }}
-        whileInView={{ scale: 0.8 }}
+        whileInView={{ scale: 1 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ type: "smooth", delay: 0.1, duration: 0.5 }}
         id="theBookContainer"

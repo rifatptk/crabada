@@ -3,6 +3,7 @@
 #cardsContainer {
   margin-top: -200px;
   padding-top: 200px;
+  margin-bottom: 240px;
   position: relative;
   z-index: 1;
   background-image: linear-gradient(rgba(0, 0, 0, 0), $bg, $bg, $bg, $bg);
@@ -10,35 +11,36 @@
     width: fit-content;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 3.5rem;
 
     .infoCard {
-      width: 400px;
+      color: #333;
+      max-width: 400px;
       position: relative;
       margin: 0 auto;
 
-      .cardpaper {
-        width: 83%;
-        position: absolute;
-        top: 20%;
-        left: 8%;
+      .cardbg {
+        width: 100%;
+        height: 190%;
       }
+
       .cardContent {
-        width: 83%;
         position: absolute;
-        top: 140px;
-        left: 32px;
-        color: $chocolate;
+        top: 80px;
+        left: 0;
         text-align: center;
         div {
-          img {
-            width: 100%;
-            &:last-child {
-              width: 200px;
-              position: absolute;
-              top: -48px;
-              left: 140px;
-            }
+          margin: 0 auto;
+          width: 60%;
+
+          h2 {
+            font-weight: bold;
+          }
+          p {
+            line-height: 1.5;
+            font-weight: bold;
           }
         }
       }
@@ -46,9 +48,10 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   #cardsContainer {
     #cards {
+      gap: 8rem;
       .infoCard {
         scale: 0.8;
       }
